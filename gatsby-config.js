@@ -11,6 +11,8 @@ module.exports = {
           pages: 'src/pages',
           styles: 'src/styles',
           static: 'static',
+          store: 'src/store',
+          providers: 'src/components/providers',
         },
       },
     },
