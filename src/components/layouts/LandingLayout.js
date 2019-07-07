@@ -2,7 +2,6 @@ import React, { useState, memo } from 'react'
 import PropTypes from 'prop-types'
 import MainLayout from 'layouts'
 import { Layout, Menu, Icon } from 'antd'
-import './styles.scss'
 
 const { Header, Sider, Content } = Layout
 
@@ -12,7 +11,7 @@ const LandingLayout = ({ children }) => {
     <MainLayout>
       <Layout>
         <Sider trigger={null} collapsible collapsed={collapsed}>
-          <div className='logo' />
+          <div className='h-20 m-2 bg-gray-200' />
           <Menu theme='dark' mode='inline' defaultSelectedKeys={['1']}>
             <Menu.Item key='1'>
               <Icon type='user' />
@@ -31,7 +30,7 @@ const LandingLayout = ({ children }) => {
         <Layout>
           <Header style={{ background: '#fff', padding: 0 }}>
             <Icon
-              className='trigger'
+              className='leading-normal ml-4 text-base'
               type={collapsed ? 'menu-unfold' : 'menu-fold'}
               onClick={() => toggle(!collapsed)}
             />
