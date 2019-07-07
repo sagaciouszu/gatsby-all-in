@@ -1,0 +1,60 @@
+{
+  "name": "gatsby-all-in",
+  "description": "A all-in starter for Gatsby",
+  "version": "0.1.0",
+  "license": "MIT",
+  "author": "Gherciu Gheorghe",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Gherciu/gatsby-all-in"
+  },
+  "bugs": {
+    "url": "https://github.com/Gherciu/gatsby-all-in/issues"
+  },
+  "scripts": {
+    "build": "gatsby build",
+    "start": "gatsby develop",
+    "serve": "gatsby serve",
+    "lint:scripts": "eslint ./ --max-warnings=0",
+    "fix:scripts": "eslint ./ --fix --max-warnings=0",
+    "lint:styles": "stylelint \"./src/**/*.scss\" --syntax=scss",
+    "fix:styles": "stylelint \"./src/**/*.scss\" --fix --syntax=scss",
+    "clean:install": "rimraf node_modules && npm i"
+  },
+  "dependencies": {
+    "antd": "^3.20.1",
+    "classnames": "^2.2.6",
+    "gatsby": "^2.13.6",
+    "lodash": "^4.17.11",
+    "moment": "^2.24.0",
+    "prop-types": "^15.7.2",
+    "ramda": "^0.26.1",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "yup": "^0.27.0"
+  },
+  "devDependencies": {
+    "babel-eslint": "^10.0.2",
+    "eslint": "^6.0.1",
+    "eslint-config-airbnb": "^17.1.1",
+    "eslint-config-airbnb-base": "^13.2.0",
+    "eslint-config-prettier": "^6.0.0",
+    "eslint-import-resolver-alias": "^1.1.2",
+    "eslint-plugin-import": "^2.18.0",
+    "eslint-plugin-jsx-a11y": "^6.2.3",
+    "eslint-plugin-prettier": "^3.1.0",
+    "eslint-plugin-react": "^7.14.2",
+    "eslint-plugin-react-hooks": "^1.6.1",
+    "gatsby-plugin-alias-imports": "^1.0.5",
+    "gatsby-plugin-sass": "^2.1.0",
+    "husky": "^3.0.0",
+    "jest-cli": "^24.8.0",
+    "lint-staged": "^9.1.0",
+    "node-sass": "^4.12.0",
+    "prettier": "^1.18.2",
+    "rimraf": "^2.6.3",
+    "stylelint": "^10.1.0",
+    "stylelint-config-recommended": "^2.2.0",
+    "stylelint-scss": "^3.9.0"
+  }
+}
