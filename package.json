@@ -29,9 +29,6 @@
     "*.(css|scss)": [
       "npm run lint:styles",
       "git add"
-    ],
-    "ignore": [
-      ".eslintrc.js"
     ]
   },
   "husky": {
