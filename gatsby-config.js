@@ -1,8 +1,10 @@
 module.exports = {
   plugins: [
-    `gatsby-plugin-sass`,
+    'gatsby-plugin-react-helmet',
+    'gatsby-plugin-playground',
+    'gatsby-plugin-sass',
     {
-      resolve: `gatsby-plugin-alias-imports`,
+      resolve: 'gatsby-plugin-alias-imports',
       options: {
         alias: {
           src: 'src',
