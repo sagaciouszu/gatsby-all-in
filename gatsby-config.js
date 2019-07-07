@@ -15,6 +15,8 @@ module.exports = {
           static: 'static',
           store: 'src/store',
           providers: 'src/components/providers',
+          common: 'src/components/common',
+          container: 'src/components/containers',
         },
       },
     },

@@ -35,6 +35,8 @@ module.exports = {
         map: [
           ['src', './src'],
           ['components', './src/components'],
+          ['common', './src/components/common'],
+          ['containers', './src/components/containers'],
           ['layouts', './src/components/layouts'],
           ['pages', './src/pages'],
           ['styles', './src/styles'],
