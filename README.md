@@ -6,19 +6,25 @@ This is a starter application using gatsby.js.
 
 ### Getting started
 
-- Clone the repo: `git clone https://github.com/Gherciu/gatsby-all-in.git`
-- Rename `.env.example` file to `.env`
+- Create a new Gatsby site using the gatsby-all-in starter: `gatsby new blog https://github.com/Gherciu/gatsby-all-in`
 - Start dev server: `npm run start`
 
 ### Features
 
 - `ESLint` and `Stylelint` to enforce code style. Run `npm run lint:scripts` for `.js|.jsx` and `npm run lint:styles` for `.css|.scss` files.
 - Pre-commit hooks with `husky` and `lint-staged`
-- Useful SCSS helpers `_mixins` and `_vars`
+- Useful SCSS helpers `_mixins` and `_vars` see all in `./src/styles`
+- `redux` and `redux-devtools` implimented and configured to work well in `development` mode and `production`. The store is hot reloadable ;)
+- Aliases for all folders (components, styles, store etc.) see all available aliases in `./gatsby-config.js`
+- `antd` is added and configured to work well as an UI framework (css normalization is not need, antd has own)
+- All folders in `./src` have own README.md file with a little documentation and usage guide
+- `Helmet` implimented and configured with `gatsby-plugin-react-helmet` see an example in `./src/layouts/MainLayout.js`
+- A `.nvmrc` to change node version
 
 ### When ready to build for production
 
 - Build the project: `npm run build`
+- Rename `.env.development` or create  file `.env.production`
 - Start production server: `npm run serve`
 
 ---
