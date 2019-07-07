@@ -16,7 +16,7 @@ module.exports = {
           store: 'src/store',
           providers: 'src/components/providers',
           common: 'src/components/common',
-          container: 'src/components/containers',
+          containers: 'src/components/containers',
         },
       },
     },

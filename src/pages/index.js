@@ -1,8 +1,8 @@
 import React from 'react'
-import MainLayout from 'layouts'
+import LandingLayout from 'layouts/LandingLayout'
 
 export default () => (
-  <MainLayout>
+  <LandingLayout>
     <div>Hello world!</div>
-  </MainLayout>
+  </LandingLayout>
 )
