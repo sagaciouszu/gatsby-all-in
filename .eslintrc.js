@@ -1,9 +1,9 @@
-const fs = require('fs');
-const path = require('path');
+const fs = require('fs')
+const path = require('path')
 
 const prettierOptions = JSON.parse(
   fs.readFileSync(path.resolve(__dirname, '.prettierrc'), 'utf8'),
-);
+)
 
 module.exports = {
   parser: 'babel-eslint',
@@ -24,6 +24,7 @@ module.exports = {
   },
   rules: {
     'prettier/prettier': ['error', prettierOptions],
+    'react/jsx-filename-extension': 0,
   },
   settings:  {
     react:  {
@@ -32,16 +33,15 @@ module.exports = {
     'import/resolver': {
       alias: {
         map: [
-          ['@src', './src'],
-          ['@components', './src/components'],
-          ['@containers', './src/components/containers'],
-          ['@layouts', './src/components/layouts'],
-          ['@pages', './src/pages'],
-          ['@styles', './src/styles'],
-          ['@static', './static'],
+          ['src', './src'],
+          ['components', './src/components'],
+          ['containers', './src/components/containers'],
+          ['layouts', './src/components/layouts'],
+          ['pages', './src/pages'],
+          ['styles', './src/styles'],
+          ['static', './static'],
         ],
-        extensions: ['js', 'jsx', 'scss', 'css', 'md', 'json'],
       }
     }
   }
-};
+}
