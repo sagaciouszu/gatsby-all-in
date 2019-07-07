@@ -13,7 +13,7 @@ This is a starter application using gatsby.js.
 
 - `ESLint` and `Stylelint` to enforce code style. Run `npm run lint:scripts` for `.js|.jsx` and `npm run lint:styles` for `.css|.scss` files.
 - Pre-commit hooks with `husky` and `lint-staged`
-- Useful SCSS helpers `_mixins` and `_vars`
+- Useful SCSS helpers `_mixins` and `_vars` see all in `./src/styles`
 - `Redux` configuration
 - Aliases for all folders (components, styles, store etc.) see all available aliases in `./gatsby-config.js`
 - `antd` is added and configured to work well as an UI framework (css normalization is not need, antd has own)
