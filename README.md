@@ -13,10 +13,8 @@ This is a starter application using gatsby.js.
 ### Features
 
 - `ESLint` and `Stylelint` to enforce code style. Run `npm run lint:scripts` for `.js|.jsx` and `npm run lint:styles` for `.css|.scss` files.
-- `i18n` internationalization support ( Scalable apps need to support multiple languages, easily add and support multiple languages with `i18n`).
 - Pre-commit hooks with `husky` and `lint-staged`
 - Useful SCSS helpers `_mixins` and `_vars`
-- Automated images optimization
 
 ### When ready to build for production
 
