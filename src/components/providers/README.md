@@ -6,4 +6,4 @@ Like as:
 - IntlProvider
 - etc...
 
-### The index.js file is the MainProvider this component combine all available providers in one
+The index.js file is the MainProvider this component combine all available providers in one
