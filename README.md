@@ -45,3 +45,8 @@ Authored and maintained by GHERCIU with help from contributors ([list](https://g
 > [github.com/Gherciu](https://github.com/Gherciu) · GitHub [@GHERCIU](https://github.com/Gherciu)
 
 #### If you like this repository star⭐ and watch👀 on [GitHub](https://github.com/Gherciu/gatsby-all-in)
+
+## 💫 Deploy
+
+[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/Gherciu/gatsby-all-in)
+
