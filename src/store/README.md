@@ -1,4 +1,4 @@
-### This directory should contain only files of global stor!
+### This directory should contain only files of global store!
 
 Like as:
 - reducer - global reducers eg:(combineReducers({...}))
