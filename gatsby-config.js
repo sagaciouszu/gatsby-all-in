@@ -13,14 +13,23 @@ module.exports = {
     'gatsby-plugin-playground',
     'gatsby-plugin-sass',
     'gatsby-plugin-react-helmet',
+    'gatsby-plugin-postcss',
     {
+      resolve: 'gatsby-plugin-less',
+      options: {
+        javascriptEnabled: true,
+      },
+    },
+    {
+      /*
+       * If you’re using this plugin together with gatsby-plugin-offline (recommended),
+       * this plugin should be listed before the offline plugin so that it can cache the created manifest.webmanifest.
+       */
       resolve: 'gatsby-plugin-manifest',
       options: {
         name: process.env.APP_NAME,
         short_name: process.env.APP_NAME,
         start_url: '/',
-        background_color: '#ffffff',
-        theme_color: '#4dc0b5',
         display: 'minimal-ui',
         icon: path.join(__dirname, '/static/logo.png'),
       },
