@@ -1,6 +1,5 @@
 import React, { useState, memo } from 'react'
 import PropTypes from 'prop-types'
-import MainLayout from 'layouts'
 import { Layout, Menu, Icon } from 'antd'
 
 const { Header, Sider, Content } = Layout
@@ -8,11 +7,11 @@ const { Header, Sider, Content } = Layout
 const LandingLayout = ({ children }) => {
   const [collapsed, toggle] = useState(false)
   return (
-    <MainLayout>
+    <div className='landing-layout'>
       <Layout>
-        <Sider trigger={null} collapsible collapsed={collapsed}>
-          <div className='h-20 m-2 bg-gray-200' />
-          <Menu theme='dark' mode='inline' defaultSelectedKeys={['1']}>
+        <Sider trigger={null} collapsible collapsed={collapsed} theme='light'>
+          <div className='h-20 m-2 bg-gray-400' />
+          <Menu theme='light' mode='inline' defaultSelectedKeys={['1']}>
             <Menu.Item key='1'>
               <Icon type='user' />
               <span>nav 1</span>
@@ -47,7 +46,7 @@ const LandingLayout = ({ children }) => {
           </Content>
         </Layout>
       </Layout>
-    </MainLayout>
+    </div>
   )
 }
 

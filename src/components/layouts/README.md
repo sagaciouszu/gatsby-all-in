@@ -6,5 +6,3 @@ Like as:
 - ProfileLayout
 - DashboardLayout
 - etc...
-
-### The index.js file is the MainLayout all Layouts should be wrapped in this layout

@@ -1,6 +1,6 @@
 import { createStore } from 'redux'
 import { composeWithDevTools } from 'redux-devtools-extension/logOnlyInProduction'
-import reducer from './reducer'
+import reducer from '@store/reducer'
 
 const initializeStore = (initialState = {}) => {
   const composeEnhancers = composeWithDevTools({

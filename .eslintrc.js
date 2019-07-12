@@ -33,16 +33,16 @@ module.exports = {
     'import/resolver': {
       alias: {
         map: [
-          ['src', './src'],
-          ['components', './src/components'],
-          ['common', './src/components/common'],
-          ['containers', './src/components/containers'],
-          ['layouts', './src/components/layouts'],
-          ['pages', './src/pages'],
-          ['styles', './src/styles'],
-          ['static', './static'],
-          ['store', './src/store'],
-          ['providers', './src/components/providers']
+          ['@src', path.join(__dirname, 'src')],
+          ['@components', path.join(__dirname, 'src/components')],
+          ['@common', path.join(__dirname, 'src/components/common')],
+          ['@containers', path.join(__dirname, 'src/components/containers')],
+          ['@layouts', path.join(__dirname, 'src/components/layouts')],
+          ['@pages', path.join(__dirname, 'src/pages')],
+          ['@styles', path.join(__dirname, 'src/styles')],
+          ['@static', path.join(__dirname, 'static')],
+          ['@store', path.join(__dirname, 'src/store')],
+          ['@providers', path.join(__dirname, 'src/components/providers')]
         ],
       }
     }

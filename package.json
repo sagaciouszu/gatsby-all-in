@@ -45,7 +45,7 @@
   "dependencies": {
     "antd": "^3.20.1",
     "classnames": "^2.2.6",
-    "gatsby": "^2.13.6",
+    "gatsby": "^2.13.18",
     "lodash": "^4.17.11",
     "moment": "^2.24.0",
     "prop-types": "^15.7.2",
@@ -61,6 +61,7 @@
   },
   "devDependencies": {
     "babel-eslint": "^10.0.2",
+    "dotenv": "^8.0.0",
     "eslint": "^6.0.1",
     "eslint-config-airbnb": "^17.1.1",
     "eslint-config-airbnb-base": "^13.2.0",
@@ -72,6 +73,7 @@
     "eslint-plugin-react": "^7.14.2",
     "eslint-plugin-react-hooks": "^1.6.1",
     "gatsby-plugin-alias-imports": "^1.0.5",
+    "gatsby-plugin-manifest": "^2.2.3",
     "gatsby-plugin-playground": "^1.0.6",
     "gatsby-plugin-react-helmet": "^3.1.0",
     "gatsby-plugin-sass": "^2.1.0",

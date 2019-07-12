@@ -1,6 +1,6 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-import ReduxProvider from './ReduxProvider'
+import ReduxProvider from '@providers/ReduxProvider'
 
 const MainProvider = ({ element }) => <ReduxProvider>{element}</ReduxProvider>
 
