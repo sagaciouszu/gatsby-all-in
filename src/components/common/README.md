@@ -5,7 +5,7 @@ Button
 Field
 ...
 
-### The structure of a container foulder should be:
+### The structure of a component folder should be:
 
 /Button
 - /tests - (index.js)

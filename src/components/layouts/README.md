@@ -6,3 +6,6 @@ Like as:
 - ProfileLayout
 - DashboardLayout
 - etc...
+
+The index.js file is the MainLayout all pages is wrapped in this component see
+the browser-config and ssr-config

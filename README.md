@@ -19,7 +19,6 @@ This is a starter application using gatsby.js.
 - `antd` is added and configured to work well as an UI framework (css normalization is not need, antd has own)
 - All folders in `./src` have own README.md file with a little documentation and usage guide
 - `Helmet` implimented and configured with `gatsby-plugin-react-helmet` see an example in `./src/layouts/MainLayout.js`
-- A `.nvmrc` to change node version
 
 ### When ready to build for production
 
@@ -45,3 +44,8 @@ Authored and maintained by GHERCIU with help from contributors ([list](https://g
 > [github.com/Gherciu](https://github.com/Gherciu) · GitHub [@GHERCIU](https://github.com/Gherciu)
 
 #### If you like this repository star⭐ and watch👀 on [GitHub](https://github.com/Gherciu/gatsby-all-in)
+
+## 💫 Deploy
+
+[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/Gherciu/gatsby-all-in)
+
