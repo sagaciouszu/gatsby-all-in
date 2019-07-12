@@ -19,11 +19,12 @@ This is a starter application using gatsby.js.
 - `antd` is added and configured to work well as an UI framework (css normalization is not need, antd has own)
 - All folders in `./src` have own README.md file with a little documentation and usage guide
 - `Helmet` implimented and configured with `gatsby-plugin-react-helmet` see an example in `./src/layouts/MainLayout.js`
+- Configured `tailwindcss` a utility-first CSS framework for rapidly building custom designs.
 
 ### When ready to build for production
 
 - Build the project: `npm run build`
-- Rename `.env.development` or create  file `.env.production`
+- Rename `.env.development` or create file `.env.production`
 - Start production server: `npm run serve`
 
 ---
@@ -48,4 +49,3 @@ Authored and maintained by GHERCIU with help from contributors ([list](https://g
 ## 💫 Deploy
 
 [![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/Gherciu/gatsby-all-in)
-
