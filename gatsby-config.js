@@ -35,6 +35,19 @@ module.exports = {
       },
     },
     {
+      resolve: 'gatsby-plugin-svgr',
+      options: {
+        svgoConfig: {
+          pretty: true,
+          multipass: true,
+          plugins: [
+            { removeViewBox: false },
+            { removeAttrs: { attrs: '(width|height)' } },
+          ],
+        },
+      },
+    },
+    {
       resolve: 'gatsby-plugin-alias-imports',
       options: {
         alias: {

@@ -7,4 +7,4 @@ Like as:
 - global.(css|scss)
 - etc...
 
-#### if you make a modification in \_vars.scss pls make this modification also in \_antd_vars.less
+#### if you make a modification in \_vars.scss pls make this modification also in \_antd_vars.less and tailwindcss.config

@@ -37,11 +37,6 @@
     ],
     "concurrent": true
   },
-  "husky": {
-    "hooks": {
-      "pre-commit": "lint-staged"
-    }
-  },
   "dependencies": {
     "antd": "^3.20.1",
     "bourbon": "^6.0.0",
@@ -61,6 +56,7 @@
     "yup": "^0.27.0"
   },
   "devDependencies": {
+    "@svgr/webpack": "^4.3.1",
     "babel-eslint": "^10.0.2",
     "dotenv": "^8.0.0",
     "eslint": "^6.0.1",
@@ -80,6 +76,7 @@
     "gatsby-plugin-postcss": "^2.1.2",
     "gatsby-plugin-react-helmet": "^3.1.0",
     "gatsby-plugin-sass": "^2.1.0",
+    "gatsby-plugin-svgr": "^2.0.2",
     "husky": "^3.0.0",
     "jest-cli": "^24.8.0",
     "less": "^3.9.0",
