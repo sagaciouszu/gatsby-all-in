@@ -15,27 +15,21 @@
     "build": "gatsby build",
     "start": "gatsby develop",
     "serve": "gatsby serve",
-    "lint:scripts": "eslint ./ --max-warnings=0  --ignore-pattern='!.eslintrc.js'",
-    "fix:scripts": "eslint ./ --fix --max-warnings=0  --ignore-pattern='!.eslintrc.js'",
+    "lint:scripts": "eslint ./ --max-warnings=0",
+    "fix:scripts": "eslint ./ --fix --max-warnings=0",
     "lint:styles": "stylelint \"./src/**/*.scss\" --syntax=scss",
     "fix:styles": "stylelint \"./src/**/*.scss\" --fix --syntax=scss",
-    "clean:install": "rimraf node_modules && npm i"
+    "clean:install": "rimraf node_modules && rimraf package-lock.json && npm i"
   },
   "lint-staged": {
-    "linters": {
-      "*.(js|jsx)": [
-        "npm run lint:scripts",
-        "git add"
-      ],
-      "*.(css|scss)": [
-        "npm run lint:styles",
-        "git add"
-      ]
-    },
-    "ignore": [
-      ".eslintrc.js"
+    "*.(js|jsx)": [
+      "npm run lint:scripts",
+      "git add"
     ],
-    "concurrent": true
+    "*.(css|scss)": [
+      "npm run lint:styles",
+      "git add"
+    ]
   },
   "husky": {
     "hooks": {
@@ -85,7 +79,7 @@
     "husky": "^3.0.0",
     "jest-cli": "^24.8.0",
     "less": "^3.9.0",
-    "lint-staged": "^8.1.5",
+    "lint-staged": "^9.2.0",
     "node-sass": "^4.12.0",
     "prettier": "^1.18.2",
     "rimraf": "^2.6.3",
