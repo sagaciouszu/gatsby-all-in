@@ -37,6 +37,11 @@
     ],
     "concurrent": true
   },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
   "dependencies": {
     "antd": "^3.20.1",
     "bourbon": "^6.0.0",
