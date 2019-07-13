@@ -24,7 +24,7 @@ This is a starter application using gatsby.js.
 ### When ready to build for production
 
 - Build the project: `npm run build`
-- Rename `.env.development` or create file `.env.production`
+- Ccreate file `.env.production` the content should be the same as in `.env.development`
 - Start production server: `npm run serve`
 
 ---
