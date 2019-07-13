@@ -77,7 +77,6 @@
     "gatsby-plugin-sass": "^2.1.0",
     "gatsby-plugin-svgr": "^2.0.2",
     "husky": "^3.0.0",
-    "jest-cli": "^24.8.0",
     "less": "^3.9.0",
     "lint-staged": "^9.2.0",
     "node-sass": "^4.12.0",
