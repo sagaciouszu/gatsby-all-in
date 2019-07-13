@@ -8,7 +8,8 @@ Field
 ### The structure of a component folder should be:
 
 /Button
+
 - /tests - (index.js)
 - constants.js - (Magic strings)
-- index.js - (Transactions Container)
+- index.js - (component file)
 - etc...
