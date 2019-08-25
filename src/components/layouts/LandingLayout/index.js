@@ -16,7 +16,7 @@ const LandingLayout = ({ children }) => {
           theme='light'
         >
           <div className='h-20 m-2 flex items-center justify-around'>
-            <LogoIcon className='h-10 w-10 mr-2' />
+            <LogoIcon className='h-10 w-10 mr-2 fill-primary-color' />
             <Typography.Title
               level={4}
               className={classNames('text-primary-color', {
