@@ -8,6 +8,7 @@ This is a starter application using gatsby.js.
 ### Getting started
 
 - Create a new Gatsby site using the gatsby-all-in starter: `gatsby new blog https://github.com/Gherciu/gatsby-all-in`
+- Edit configuration variables in `.env.development` file
 - Start dev server: `npm run start`
 
 ### Features
@@ -24,7 +25,7 @@ This is a starter application using gatsby.js.
 
 ### When ready to build for production
 
-- Ccreate file `.env.production` the content should be the same as in `.env.development`
+- Create file `.env.production` the content should be the same as in `.env.development`
 - Build the project: `npm run build`
 - Start production server: `npm run serve`
 
