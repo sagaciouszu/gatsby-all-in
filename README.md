@@ -41,7 +41,7 @@ This is a starter application using gatsby.js.
 
 ## Author
 
-**@Gherciu/gatsby-all-in** © [GHERCIU](https://github.com/Gherciu), Released under the [MIT](./LICENSE) License.<br>
+**[@Gherciu/gatsby-all-in](https://github.com/Gherciu/gatsby-all-in)** © [GHERCIU](https://github.com/Gherciu), Released under the [MIT](https://github.com/Gherciu/gatsby-all-in/blob/master/LICENSE) License.<br>
 Authored and maintained by GHERCIU with help from contributors ([list](https://github.com/Gherciu/gatsby-all-in/contributors)).
 
 #### If you like this repository star⭐ and watch👀 on [GitHub](https://github.com/Gherciu/gatsby-all-in)
