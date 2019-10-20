@@ -2,7 +2,7 @@
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/b654c94e-08a6-4b79-b443-7837581b1d8d/deploy-status)](https://app.netlify.com/sites/gatsby-all-in/deploys)
 ![GitHub](https://img.shields.io/github/license/Gherciu/gatsby-all-in)
-![Multipack](https://img.shields.io/badge/Generated%20from-gatsby--all--in-green)
+![Gatsby-All-In](https://img.shields.io/badge/Generated%20from-gatsby--all--in-green)
 
 ### Introduction
 
