@@ -3,7 +3,11 @@
   "description": "A all-in starter for Gatsby",
   "version": "0.1.0",
   "license": "MIT",
-  "author": "Gherciu Gheorghe",
+  "author": {
+		"name": "Gherciu Gheorghe",
+		"email": "gherciu553@gmail.com",
+		"url": "https://gherciu.github.io/portfolio/"
+	},
   "repository": {
     "type": "git",
     "url": "https://github.com/Gherciu/gatsby-all-in"
