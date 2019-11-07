@@ -1,12 +1,13 @@
-## gatsby-all-in
+<div align="center">
+  <img width="200" height="200"
+    src="https://raw.githubusercontent.com/Gherciu/gatsby-all-in/master/static/logo.png">
+  <h1>gatsby-all-in</h1>
+  <p>This is a starter application using gatsby.js. <a href="https://gatsby-all-in.netlify.com/" alt="gatsby-all-in">DEMO</a>.</p>
+</div>
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/b654c94e-08a6-4b79-b443-7837581b1d8d/deploy-status)](https://app.netlify.com/sites/gatsby-all-in/deploys)
 [![GitHub](https://img.shields.io/github/license/Gherciu/gatsby-all-in)](https://github.com/Gherciu/gatsby-all-in/blob/master/LICENSE.md)
 [![Gatsby-All-In](https://img.shields.io/badge/Generated%20from-gatsby--all--in-green)](https://github.com/Gherciu/gatsby-all-in)
-
-### Introduction
-
-This is a starter application using gatsby.js.
 
 ### Getting started
 
