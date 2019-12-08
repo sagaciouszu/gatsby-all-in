@@ -1,8 +1,8 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import Helmet from 'react-helmet'
-import '@styles/tailwind.css'
 import '@styles/antd.less'
+import '@styles/tailwind.css'
 import '@styles/global.scss'
 
 const MainLayout = ({ element }) => (
