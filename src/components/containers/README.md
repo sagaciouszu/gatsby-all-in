@@ -3,24 +3,17 @@ Note: for a better reusability do not use product names. Example for a reservati
 
 #### Like as:
 
-Header
-
-Header
-
 ItemsList
 
 ItemsFilter
 
-Footer
-...
-
 ### The structure of a container foulder should be:
 
-/Header
+/ItemsList
 - /components
    - /tests - (HeaderItem and HeaderList)
-   - HeaderList.js - (A non common component used in this container.)
-   - HeaderItem.js - (A non common component used in this container.)
+   - ItemsList.js - (A non common component used in this container.)
+   - ItemsList.js - (A non common component used in this container.)
 - /tests - (tests for actions, selectors, reducer, index.js etc.)
 - actions.js - (Action creators used in this container)
 - constants.js - (Magic strings and Action Types)
