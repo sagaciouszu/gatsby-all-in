@@ -8,8 +8,8 @@ export default () => (
       <Typography.Title className='text-primary-color'>
         Fast in every way that matters
       </Typography.Title>
-      <div class="irc-container">
-        <iframe class="irc-iframe" src="https://kiwiirc.com/nextclient/?settings=1746bda2390f4caec446211e5118e458"></iframe>
+      <div class="flex">
+        <iframe title="chat" class="flex" src="https://kiwiirc.com/nextclient/?settings=1746bda2390f4caec446211e5118e458"></iframe>
       </div>
     </div>
   </LandingLayout>
