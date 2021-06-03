@@ -9,10 +9,9 @@ export default () => (
         Fast in every way that matters
       </Typography.Title>
       <Typography.Title level={4} className='text-gray-600'>
-        Gatsby is a free and open source framework based on React that helps
-        developers build blazing fast websites and apps
+        test dickbutt
       </Typography.Title>
-      <img src='/cover.png' alt='logo' className='mt-10' />
+      <iframe src="https://kiwiirc.com/nextclient/?settings=1746bda2390f4caec446211e5118e458" style="width:100%;height:680px;border:0;display:block"></iframe>
     </div>
   </LandingLayout>
 )
